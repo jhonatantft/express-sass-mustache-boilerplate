@@ -1,0 +1,23 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "Express, sass and mustache boilerplate",
+  "main": "app.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss public/css/main.css -w",
+    "start": "nodemon app.js"
+  },
+  "author": "Jhonatan Tomimatsu",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.4"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.4",
+    "express-router": "0.0.1",
+    "mustache-express": "^1.2.8",
+    "nodemon": "^1.18.4",
+    "serve-favicon": "^2.5.0"
+  }
+}
